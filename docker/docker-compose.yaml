@@ -1,0 +1,6 @@
+version: '3'
+services:
+  admitad-service:
+    image: evgeniypnf/survey-app:latest
+    ports:
+      - 8080:8080
