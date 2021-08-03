@@ -15,6 +15,7 @@ http://localhost:8080/admin/question/save - позволяет сохранит�
 host/admin/question/update позволяет обновить вопрос, put запрос - принимает json вида -
 
       {
+        "id": 0,
         "textQuestion": "Как не звать?",
         "questionTypeId": 0,
         "userId": 2,
